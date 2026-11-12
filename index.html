@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio d'Arthur Khalatyan, étudiant en Bachelor Cybersécurité & Administration Système à l'ISEN Ouest (Nantes).">
+  <title>Arthur Khalatyan | Cybersécurité & Administration Système</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="barre">
+    <nav class="nav conteneur" aria-label="Navigation principale">
+      <a href="#accueil" class="logo">~/arthur<span class="curseur">_</span></a>
+      <ul class="menu">
+        <li><a href="#projets">Labs</a></li>
+        <li><a href="#competences">Compétences</a></li>
+        <li><a href="#parcours">Parcours</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="accueil" class="hero conteneur">
+      <img src="moi.jpg" alt="Arthur Khalatyan" class="photo">
+      <div class="hero-texte">
+        <p class="invite">$ whoami</p>
+        <h1>Arthur KHALATYAN</h1>
+        <p class="titre">Étudiant en Bachelor Cybersécurité & Administration Système (ISEN Ouest — Nantes)</p>
+        <p class="accroche">Pratiquant régulier de CTF et d'administration Linux. À la recherche d'un stage d'un mois à l'international (été 2027) et d'une alternance dès septembre 2027 (rythme 2 semaines école / 3 semaines entreprise).</p>
+        <div class="actions">
+          <a href="cv.pdf" download class="btn btn-plein">Télécharger mon CV</a>
+          <a href="#contact" class="btn btn-contour">Me contacter</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="projets" class="section conteneur">
+      <h2 class="titre-section"><span>01</span> Pratique Cybersécurité & Labs</h2>
+      <div class="grille grille-projets">
+        <article class="carte">
+          <p class="etiquette">CTF</p>
+          <h3>CTF Linux — OverTheWire Bandit</h3>
+          <p class="badge">30 niveaux validés</p>
+          <p>Exploitation de failles basiques, gestion des droits et permissions, contournement de scripts Bash et escalade de privilèges sous Linux.</p>
+        </article>
+        <article class="carte">
+          <p class="etiquette">Labs</p>
+          <h3>Labs Cybersécurité — TryHackMe & HackTheBox</h3>
+          <p>Pratique des méthodologies Junior Security Analyst (analyse d'alertes et de logs), Offensive et Defensive Security.</p>
+        </article>
+        <article class="carte">
+          <p class="etiquette">OSINT</p>
+          <h3>OSINT & Simulations d'investigation</h3>
+          <p>Collecte et recoupement d'informations publiques (Google Dorks, Shodan, Whois) et résolution de scénarios d'analyse de menaces.</p>
+        </article>
+        <article class="carte">
+          <p class="etiquette">Web</p>
+          <h3>Portfolio Web Personnel</h3>
+          <p>Conception et développement de zéro en HTML5, CSS3 et JavaScript natif.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="competences" class="section conteneur">
+      <h2 class="titre-section"><span>02</span> Compétences Techniques</h2>
+      <div class="grille grille-competences">
+        <article class="carte">
+          <h3>Systèmes</h3>
+          <ul class="liste-tags">
+            <li>Linux (Ubuntu, Kali Linux)</li>
+            <li>Scripting Bash</li>
+            <li>Gestion de services</li>
+          </ul>
+        </article>
+        <article class="carte">
+          <h3>Réseau & Sécurité</h3>
+          <ul class="liste-tags">
+            <li>Wireshark</li>
+            <li>Nmap</li>
+            <li>Burp Suite</li>
+            <li>OSINT (Google Dorks, Shodan, Whois)</li>
+          </ul>
+        </article>
+        <article class="carte">
+          <h3>Programmation & BDD</h3>
+          <ul class="liste-tags">
+            <li>Python</li>
+            <li>C (pointeurs, gestion mémoire)</li>
+            <li>SQL (MySQL, PostgreSQL)</li>
+            <li>HTML/CSS/JS</li>
+          </ul>
+        </article>
+        <article class="carte">
+          <h3>Matériel</h3>
+          <ul class="liste-tags">
+            <li>Assemblage PC</li>
+            <li>Diagnostic de pannes</li>
+            <li>Maintenance</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section id="parcours" class="section conteneur">
+      <h2 class="titre-section"><span>03</span> Expériences & Formation</h2>
+
+      <h3 class="sous-titre">Expériences IT</h3>
+      <ul class="chronologie">
+        <li class="carte experience">
+          <img src="logo-labouest.png" alt="Logo LabOuest" class="logo-exp">
+          <div>
+            <h4>Bénévole Ateliers Informatiques — LabOuest (FabLab)</h4>
+            <p class="meta">La Roche-sur-Yon · 2020–2025</p>
+            <p>Projets techniques en équipe : modélisation 3D (Blender, Fusion 360) et prototypage IoT (Arduino).</p>
+          </div>
+        </li>
+        <li class="carte experience">
+          <img src="logo-grolleau.png" alt="Logo Grolleau Informatique" class="logo-exp">
+          <div>
+            <h4>Stagiaire Observation IT — Grolleau Informatique & Micro 85</h4>
+            <p class="meta">2024 & 2021</p>
+            <p>Diagnostic de pannes matérielles, support client, contrôle d'intégrité et tests de performance (Bitdefender, Malwarebytes, PassMark, Cinebench).</p>
+          </div>
+        </li>
+      </ul>
+
+      <h3 class="sous-titre">Autres expériences</h3>
+      <ul class="chronologie">
+        <li class="carte experience">
+          <img src="logo-noos.png" alt="Logo Noos" class="logo-exp">
+          <div>
+            <h4>Préparateur de commandes — Noos</h4>
+            <p class="meta">La Boissière-des-Landes · Juillet – Août 2026</p>
+            <p>Gestion rigoureuse des stocks à cadence élevée sous WMS.</p>
+          </div>
+        </li>
+        <li class="carte experience">
+          <img src="logo-secours.png" alt="Logo Secours Catholique" class="logo-exp">
+          <div>
+            <h4>Bénévole Logistique — Secours Catholique</h4>
+            <p class="meta">La Roche-sur-Yon · Juillet 2026</p>
+            <p>Organisation logistique sur le terrain et suivi sous Excel.</p>
+          </div>
+        </li>
+      </ul>
+
+      <h3 class="sous-titre">Formation</h3>
+      <ul class="chronologie">
+        <li class="carte formation">
+          <h4>Bachelor Cybersécurité (1ère année en cours)</h4>
+          <p class="meta">ISEN Ouest, Campus de Nantes · 2026 – Présent</p>
+        </li>
+        <li class="carte formation">
+          <h4>1ère année de cycle Ingénieur</h4>
+          <p class="meta">ISEN Ouest, Campus de Nantes · 2025 – 2026</p>
+        </li>
+        <li class="carte formation">
+          <h4>Baccalauréat Général (Spécialités Mathématiques et NSI)</h4>
+          <p class="meta">Lycée Saint François d'Assise, La Roche-sur-Yon · 2023 – 2025</p>
+        </li>
+      </ul>
+    </section>
+
+    <section id="contact" class="section conteneur">
+      <h2 class="titre-section"><span>04</span> Contact</h2>
+      <div class="carte contact">
+        <p class="ligne-contact"><span class="cle">localisation</span> Nantes / Vendée (Permis B)</p>
+        <p class="ligne-contact">
+          <span class="cle">email</span>
+          <a href="mailto:arthur.khalatyan@isen-ouest.yncrea.fr" id="email">arthur.khalatyan@isen-ouest.yncrea.fr</a>
+          <button type="button" class="btn-copie" id="btn-copie">Copier l'email</button>
+        </p>
+        <p class="ligne-contact">
+          <span class="cle">liens</span>
+          <a href="https://www.linkedin.com/in/arthur-khalatyan" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="https://github.com/personne-le-vrai" target="_blank" rel="noopener">GitHub</a>
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="pied">
+    <div class="conteneur pied-contenu">
+      <p>&copy; 2026 Arthur Khalatyan</p>
+      <p class="mono">ISEN Ouest — Nantes</p>
+      <p>
+        <a href="https://www.linkedin.com/in/arthur-khalatyan" target="_blank" rel="noopener">LinkedIn</a> ·
+        <a href="https://github.com/personne-le-vrai" target="_blank" rel="noopener">GitHub</a>
+      </p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
